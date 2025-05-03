@@ -9,9 +9,12 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Node",
+    "lib": ["DOM", "ESNext"],
     "jsx": "react-jsx",
     "strict": true,
+    "esModuleInterop": true,
     "skipLibCheck": true,
-    "esModuleInterop": true
-  }
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["packages", "apps"]
 }

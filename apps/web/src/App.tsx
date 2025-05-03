@@ -1,6 +1,7 @@
 import { useState } from 'react';
+import { Button } from '@ui';
 import reactLogo from './assets/react.svg';
-import viteLogo from '../../../../../../../vite.svg';
+import viteLogo from '../public/vite.svg';
 import './App.css';
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to test HMR
         </p>
+        <Button onClick={() => alert('Hello!')}> Share BUtton</Button>
       </div>
       <p className="read-the-docs">Click on the Vite and React logos to learn more</p>
     </>

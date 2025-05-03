@@ -16,6 +16,10 @@
       "cache": false,
       "persistent": true
     },
+    "build:ui": {
+      "dependsOn": [],
+      "outputs": ["dist/**"]
+    },
     "lint": {}
   }
 }

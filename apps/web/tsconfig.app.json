@@ -1,3 +1,12 @@
 {
-  "extends": "../../tsconfig.json"
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src",
+    "jsx": "react-jsx",
+    "types": ["vite/client"],
+    "baseUrl": "."
+  },
+  "include": ["src"], // ✅ Include files for ESLint & TS
+  "exclude": ["node_modules", "dist"]
 }

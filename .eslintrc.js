@@ -13,6 +13,9 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'prettier/prettier': ['error'],
     'import/no-unresolved': 'off',
+    'import/prefer-default-export': 'off',
+    'react/function-component-definition': 'off',
+    'react/jsx-props-no-spreading': 'off',
   },
   settings: {
     react: {
